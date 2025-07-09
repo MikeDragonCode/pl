@@ -2,8 +2,6 @@
 auth.json
 .venv/
 
-.venv/
-.venv/
 .idea/
 pl-clean/
 allure-report/
