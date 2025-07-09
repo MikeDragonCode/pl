@@ -5,3 +5,4 @@ auth.json
 .idea/
 pl-clean/
 allure-report/
+.venv_temp/
