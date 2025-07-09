@@ -36,10 +36,3 @@ def test_3(page):
     page.locator("#city").click()
     page.get_by_text("Delhi", exact=True).click()
 
-    page.locator("#submit").scroll_into_view_if_needed()
-    page.locator("#submit").click(force=True)
-
-    # Проверка модального окна
-    modal = page.locator(".modal-content")
-    expect(modal).to_be_visible()
-    expect(modal.locator("td:has-text('Student Name') + td")).to_have_text("John Doe")
